@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T18:13:01.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="lhRFAj6skNxInHqJUmdr" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-27T18:15:20.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="YjR_K7S_d8zM8xJQ5dLX" version="20.2.2" type="github">
   <diagram id="OlvYbpYc6oZ3rR2Hr7R8" name="Страница 1">
     <mxGraphModel dx="1640" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,8 +82,24 @@
         <mxCell id="irHkAptQY38qQP1u1ijH-5" value="Check booking with review" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="400" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="irHkAptQY38qQP1u1ijH-6" value="Check booking" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="460" width="70" height="40" as="geometry" />
+        <mxCell id="irHkAptQY38qQP1u1ijH-6" value="Check booking without review" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="460" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="irHkAptQY38qQP1u1ijH-7" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;extends&lt;/font&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;labelBackgroundColor=none;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="irHkAptQY38qQP1u1ijH-3" target="irHkAptQY38qQP1u1ijH-6">
+          <mxGeometry x="-0.0769" y="-18" width="160" relative="1" as="geometry">
+            <mxPoint x="250" y="570" as="sourcePoint" />
+            <mxPoint x="250" y="500" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="irHkAptQY38qQP1u1ijH-8" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;extends&lt;/font&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;labelBackgroundColor=none;fontColor=default;entryX=-0.016;entryY=0.577;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="irHkAptQY38qQP1u1ijH-5">
+          <mxGeometry x="-0.2702" y="19" width="160" relative="1" as="geometry">
+            <mxPoint x="259.43" y="450" as="sourcePoint" />
+            <mxPoint x="259.43" y="380" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
