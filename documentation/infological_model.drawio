@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T22:07:38.752Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Y0s1nsivZFeUxb3wnvTy" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-27T22:19:47.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="m6worrY1UlUHwbL5caC5" version="20.2.2" type="github">
   <diagram id="29aRrfpUoqdX_eaidiLU" name="Страница 1">
     <mxGraphModel dx="1422" dy="3092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="pYau3k7I2MAjQEHZCgY2-37" value="Book" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="620" y="-1050" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="pYau3k7I2MAjQEHZCgY2-38" value="+ id&#xa;+ room_id&#xa;+ check_in&#xa;+ check_out&#xa;+ username&#xa;+ email" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="pYau3k7I2MAjQEHZCgY2-37" vertex="1">
+        <mxCell id="pYau3k7I2MAjQEHZCgY2-38" value="+ id&#xa;+ room_id&#xa;+ user_id&#xa;+ check_in&#xa;+ check_out&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="pYau3k7I2MAjQEHZCgY2-37" vertex="1">
           <mxGeometry y="30" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="pYau3k7I2MAjQEHZCgY2-57" value="City" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
