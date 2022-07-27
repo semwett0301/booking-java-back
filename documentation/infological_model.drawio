@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T22:24:31.825Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="usAPYmNYEBminAcUZYOB" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-27T22:26:16.562Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="9LPKxHtHGXRkktpYWKWp" version="20.2.2" type="github">
   <diagram id="29aRrfpUoqdX_eaidiLU" name="Страница 1">
     <mxGraphModel dx="1422" dy="3092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry y="30" width="160" height="210" as="geometry" />
         </mxCell>
         <mxCell id="pYau3k7I2MAjQEHZCgY2-33" value="RoomCondition" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="620" y="-1230" width="160" height="80" as="geometry" />
+          <mxGeometry x="620" y="-1230" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="pYau3k7I2MAjQEHZCgY2-34" value="+ name&#xa;+ image" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="pYau3k7I2MAjQEHZCgY2-33" vertex="1">
-          <mxGeometry y="30" width="160" height="50" as="geometry" />
+        <mxCell id="pYau3k7I2MAjQEHZCgY2-34" value="+ id&#xa;+ name&#xa;+ image" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="pYau3k7I2MAjQEHZCgY2-33" vertex="1">
+          <mxGeometry y="30" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pYau3k7I2MAjQEHZCgY2-35" value="Room" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="270" y="-1160" width="160" height="140" as="geometry" />
