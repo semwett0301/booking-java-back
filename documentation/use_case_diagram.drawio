@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T21:48:57.874Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="CcnTDSfw4AynY0tyQ_b1" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-27T21:50:23.977Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="np6cfO1STpFr69RKLDXl" version="20.2.2" type="github">
   <diagram id="OlvYbpYc6oZ3rR2Hr7R8" name="Страница 1">
     <mxGraphModel dx="2012" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="JTxRaQrFb4YPlkqaMSQB-1" value="" style="whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-30" y="60" width="490" height="1100" as="geometry" />
+          <mxGeometry x="-30" y="60" width="490" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="irHkAptQY38qQP1u1ijH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JTxRaQrFb4YPlkqaMSQB-2" target="irHkAptQY38qQP1u1ijH-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -65,6 +65,15 @@
         <mxCell id="irHkAptQY38qQP1u1ijH-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JTxRaQrFb4YPlkqaMSQB-4" target="irHkAptQY38qQP1u1ijH-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="o456XIW5Zp0bhueoUvlY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JTxRaQrFb4YPlkqaMSQB-4" target="YqEurKy7PQju6DGsf53N-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="1010" />
+              <mxPoint x="420" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JTxRaQrFb4YPlkqaMSQB-4" value="Moderator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#99CCFF;" parent="1" vertex="1">
           <mxGeometry x="-100" y="980" width="30" height="60" as="geometry" />
         </mxCell>
@@ -72,7 +81,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JTxRaQrFb4YPlkqaMSQB-5" value="Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#99CCFF;" parent="1" vertex="1">
-          <mxGeometry x="-100" y="1120" width="30" height="60" as="geometry" />
+          <mxGeometry x="-100" y="1169" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JTxRaQrFb4YPlkqaMSQB-6" value="Book System" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1" parent="1" vertex="1">
           <mxGeometry y="80" width="140" height="40" as="geometry" />
@@ -203,7 +212,7 @@
           <mxGeometry x="120" y="1020" width="85" height="50" as="geometry" />
         </mxCell>
         <mxCell id="irHkAptQY38qQP1u1ijH-43" value="Edit role" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="1125" width="85" height="50" as="geometry" />
+          <mxGeometry x="120" y="1174" width="85" height="50" as="geometry" />
         </mxCell>
         <mxCell id="o456XIW5Zp0bhueoUvlY-5" value="Sign Out" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="520" width="90" height="40" as="geometry" />
