@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T14:04:27.371Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Zj-oxlmEEWjna_A1w40_" version="20.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-27T14:04:58.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="c63KQOPiZb_vrlsfftuX" version="20.2.1" type="github">
   <diagram id="XwwVsABzowGfqBVzO6Hq" name="Страница 1">
     <mxGraphModel dx="1422" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -187,6 +187,12 @@
         <mxCell id="TY08k2Uq7eaJ0ZYcj1gX-125" value="Donation" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="TY08k2Uq7eaJ0ZYcj1gX-123">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TY08k2Uq7eaJ0ZYcj1gX-129" value="" style="endArrow=none;html=1;rounded=0;exitX=0.036;exitY=0.891;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.022;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="TY08k2Uq7eaJ0ZYcj1gX-1" source="TY08k2Uq7eaJ0ZYcj1gX-8" target="TY08k2Uq7eaJ0ZYcj1gX-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="245" as="sourcePoint" />
+            <mxPoint x="140" y="195" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TY08k2Uq7eaJ0ZYcj1gX-27" value="Table" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
