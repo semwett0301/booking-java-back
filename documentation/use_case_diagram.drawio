@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T18:37:08.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-ahheM-xioE-GqvqM9oQ" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-27T18:37:53.322Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="3AOvEAIBYhBRzqVU4AlL" version="20.2.2" type="github">
   <diagram id="OlvYbpYc6oZ3rR2Hr7R8" name="Страница 1">
-    <mxGraphModel dx="2500" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1808" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -166,7 +166,7 @@
           <mxGeometry x="120" y="510" width="85" height="50" as="geometry" />
         </mxCell>
         <mxCell id="irHkAptQY38qQP1u1ijH-27" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="205" y="574.9993623662692" as="geometry">
+          <mxGeometry x="205" y="569.9993623662692" as="geometry">
             <mxPoint x="1" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -189,7 +189,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="irHkAptQY38qQP1u1ijH-38" value="include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="190" y="819.9993623662692" as="geometry">
+          <mxGeometry x="205" y="819.9993623662692" as="geometry">
             <mxPoint x="1" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
