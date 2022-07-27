@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T13:20:01.559Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="NPyi46ZsI331bv3yS0Xh" version="20.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-27T14:34:11.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="NlQIQZ4E3izQiQZZi_aI" version="20.2.1" type="github">
   <diagram id="29aRrfpUoqdX_eaidiLU" name="Страница 1">
     <mxGraphModel dx="1422" dy="3035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,7 +102,7 @@
         <mxCell id="sjxmM6eFDPkaP8Hnt-gu-11" value="+ id&#xa;+ name" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="sjxmM6eFDPkaP8Hnt-gu-10" vertex="1">
           <mxGeometry y="30" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gWQi2Wdpemn27oxUfFkV-1" value="Room" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="gWQi2Wdpemn27oxUfFkV-1" value="RoomImages" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="40" y="-1160" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="gWQi2Wdpemn27oxUfFkV-2" value="+ id&#xa;+ room_id&#xa;+ src" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="gWQi2Wdpemn27oxUfFkV-1">
