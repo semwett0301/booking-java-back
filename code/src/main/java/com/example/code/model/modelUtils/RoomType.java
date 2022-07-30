@@ -1,4 +1,4 @@
-package com.example.code.database.utils;
+package com.example.code.model.modelUtils;
 
 public enum RoomType {
     APARTMENT,

@@ -1,11 +1,10 @@
-package com.example.code.database.entities;
+package com.example.code.model.entities;
 
 
 import lombok.Data;
 
 import javax.persistence.Entity;
 import javax.persistence.Lob;
-import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 
 @Data

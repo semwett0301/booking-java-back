@@ -1,7 +1,7 @@
-package com.example.code.database.entities;
+package com.example.code.model.entities;
 
 
-import com.example.code.database.utils.RoomType;
+import com.example.code.model.modelUtils.RoomType;
 import lombok.Data;
 
 import javax.persistence.*;

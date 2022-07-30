@@ -1,13 +1,11 @@
-package com.example.code.database.entities;
+package com.example.code.model.entities;
 
-import com.example.code.database.utils.Payment;
-import com.example.code.database.utils.Refund;
+import com.example.code.model.modelUtils.Payment;
+import com.example.code.model.modelUtils.Refund;
 import lombok.Data;
 
 import javax.persistence.*;
-import java.awt.print.Book;
 import java.util.List;
-import java.util.UUID;
 
 @Entity
 @Data
