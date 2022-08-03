@@ -28,7 +28,7 @@ public class UserController {
         return ResponseEntity.ok().build();
     }
 
-    @GetMapping("/login")
+    @PostMapping("/login")
     public ResponseEntity<ResponseUserInfoDTO> loginUser(@RequestBody RequestUserInfoDTO requestUserInfoDTO) {
         Optional<ResponseUserInfoDTO> responseUserInfoDTO = userInfoService.login(requestUserInfoDTO);
         if (responseUserInfoDTO.isEmpty()) {

@@ -19,7 +19,7 @@ public class HotelController {
         this.hotelService = hotelService;
     }
 
-    @PostMapping
+    @GetMapping
     public ResponseEntity<List<ResponseHotelDTO>> getHotels(@RequestBody RequestHotelDTO requestHotelDTO) {
         return ResponseEntity.ok().body(hotelService.getHotels(requestHotelDTO));
     }
