@@ -1,7 +1,6 @@
 package com.example.code.model.dto;
 
-import com.example.code.model.modelUtils.Payment;
-import com.example.code.model.modelUtils.Refund;
+
 import lombok.Data;
 
 import java.util.UUID;

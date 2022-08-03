@@ -5,10 +5,7 @@ import com.example.code.model.dto.ResponseHotelDTO;
 import com.example.code.services.HotelService.HotelService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -22,7 +19,7 @@ public class HotelController {
         this.hotelService = hotelService;
     }
 
-    @GetMapping
+    @PostMapping
     public ResponseEntity<List<ResponseHotelDTO>> getHotels(@RequestBody RequestHotelDTO requestHotelDTO) {
         return ResponseEntity.ok().body(hotelService.getHotels(requestHotelDTO));
     }

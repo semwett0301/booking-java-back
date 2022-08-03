@@ -19,7 +19,6 @@ public class Hotel extends BaseEntity{
 
     private double rating;
 
-    @Lob
     private String description;
 
     private Payment payment;
