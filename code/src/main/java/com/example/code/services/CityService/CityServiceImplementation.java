@@ -25,4 +25,11 @@ public class CityServiceImplementation implements CityService{
                 .map(elem -> CityMapper.INSTANCE.toResponseDTO(elem, elem.getCountry()))
                 .collect(Collectors.toList());
     }
+
+    @Override
+    public List<ResponseCityDTO> getCitiesByPartOfName(String part) {
+        return getCities().stream()
+                .filter(elem -> elem.getName().contains(part))
+                .collect(Collectors.toList());
+    }
 }

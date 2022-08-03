@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface CityService {
     List<ResponseCityDTO> getCities();
+
+    List<ResponseCityDTO> getCitiesByPartOfName(String part);
 }

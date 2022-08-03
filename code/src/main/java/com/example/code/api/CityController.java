@@ -4,9 +4,7 @@ import com.example.code.model.dto.ResponseCityDTO;
 import com.example.code.services.CityService.CityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -23,6 +21,11 @@ public class CityController {
     @GetMapping
     public ResponseEntity<List<ResponseCityDTO>> getCities() {
         return ResponseEntity.ok().body(cityService.getCities());
+    }
+
+    @GetMapping("/{part}")
+    ResponseEntity<List<ResponseCityDTO>> getCitiesByPartOfName(@PathVariable("part") String part) {
+        return ResponseEntity.ok().body(cityService.getCitiesByPartOfName(part));
     }
 
 }
