@@ -6,7 +6,6 @@ import com.example.code.model.dto.ResponseUserInfoDTO;
 import javax.transaction.Transactional;
 import java.util.Optional;
 
-@Transactional
 public interface UserInfoService {
     void register(RequestUserInfoDTO requestUserInfoDTO);
 
