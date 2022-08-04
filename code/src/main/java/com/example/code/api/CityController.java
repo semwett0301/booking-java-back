@@ -23,8 +23,8 @@ public class CityController {
         return ResponseEntity.ok().body(cityService.getCities());
     }
 
-    @GetMapping("/{part}")
-    ResponseEntity<List<ResponseCityDTO>> getCitiesByPartOfName(@PathVariable("part") String part) {
+    @GetMapping("/part")
+    ResponseEntity<List<ResponseCityDTO>> getCitiesByPartOfName(@RequestParam String part) {
         return ResponseEntity.ok().body(cityService.getCitiesByPartOfName(part));
     }
 
