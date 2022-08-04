@@ -19,7 +19,7 @@ public class CityController {
     }
 
     @GetMapping("/top")
-    public ResponseEntity<List<ResponseCityDTO>> getCities(@RequestParam int amount) {
+    public ResponseEntity<List<ResponseCityDTO>> getTopCities(@RequestParam int amount) {
         return ResponseEntity.ok().body(cityService.getTopCities(amount));
     }
 
