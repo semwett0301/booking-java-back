@@ -30,6 +30,15 @@ public class CityServiceImplementation implements CityService{
     public List<ResponseCityDTO> getCitiesByPartOfName(String part) {
         return getCities().stream()
                 .filter(elem -> elem.getName().contains(part))
+                .sorted((a, b) -> {
+                    if (a.getPopularity() > b.getPopularity()) {
+                        return 1;
+                    } else if(a.getPopularity() < b.getPopularity()) {
+                        return -1;
+                    }
+                    return 0;
+                })
+                .limit(5)
                 .collect(Collectors.toList());
     }
 }
