@@ -19,6 +19,7 @@ public class HotelController {
         this.hotelService = hotelService;
     }
 
+    // server/hotels
     @GetMapping
     public ResponseEntity<List<ResponseHotelDTO>> getHotels(@RequestBody RequestHotelDTO requestHotelDTO) {
         return ResponseEntity.ok().body(hotelService.getHotels(requestHotelDTO));

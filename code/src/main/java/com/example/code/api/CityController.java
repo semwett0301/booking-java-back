@@ -18,11 +18,13 @@ public class CityController {
         this.cityService = cityService;
     }
 
+    // server/cities/top?amount=8
     @GetMapping("/top")
     public ResponseEntity<List<ResponseCityDTO>> getTopCities(@RequestParam int amount) {
         return ResponseEntity.ok().body(cityService.getTopCities(amount));
     }
 
+    // server/cities/part?part="abc"
     @GetMapping("/part")
     ResponseEntity<List<ResponseCityDTO>> getCitiesByPartOfName(@RequestParam String part) {
         return ResponseEntity.ok().body(cityService.getCitiesByPartOfName(part));

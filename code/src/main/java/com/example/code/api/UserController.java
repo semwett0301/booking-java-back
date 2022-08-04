@@ -22,12 +22,14 @@ public class UserController {
         this.userInfoService = userInfoService;
     }
 
+    // server/users/registration  body: {username: abc, password: abc, email: abc}
     @PostMapping("/registration")
     public ResponseEntity registerNewUser(@RequestBody RequestUserInfoDTO requestUserInfoDTO) {
         userInfoService.register(requestUserInfoDTO);
         return ResponseEntity.ok().build();
     }
 
+    // server/users/login  body: {username: abc, password: abc}
     @PostMapping("/login")
     public ResponseEntity<ResponseUserInfoDTO> loginUser(@RequestBody RequestUserInfoDTO requestUserInfoDTO) {
         Optional<ResponseUserInfoDTO> responseUserInfoDTO = userInfoService.login(requestUserInfoDTO);
