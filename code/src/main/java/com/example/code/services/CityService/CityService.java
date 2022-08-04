@@ -5,7 +5,7 @@ import com.example.code.model.dto.ResponseCityDTO;
 import java.util.List;
 
 public interface CityService {
-    List<ResponseCityDTO> getCities();
+    List<ResponseCityDTO> getTopCities(int amount);
 
     List<ResponseCityDTO> getCitiesByPartOfName(String part);
 }

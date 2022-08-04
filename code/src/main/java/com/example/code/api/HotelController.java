@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/hotels")
 public class HotelController {
-    private HotelService hotelService;
+    private final HotelService hotelService;
 
     @Autowired
     public HotelController(HotelService hotelService) {

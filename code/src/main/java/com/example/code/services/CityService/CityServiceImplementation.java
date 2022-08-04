@@ -19,26 +19,23 @@ public class CityServiceImplementation implements CityService{
         this.cityRepository = cityRepository;
     }
 
-    @Override
-    public List<ResponseCityDTO> getCities() {
-        return cityRepository.findAll(Sort.by(Sort.Direction.DESC, "popularity")).stream()
-                .map(elem -> CityMapper.INSTANCE.toResponseDTO(elem, elem.getCountry()))
+    public List<ResponseCityDTO> getTopCities(int amount) {
+        return getAllCities().stream()
+                .limit(amount)
                 .collect(Collectors.toList());
     }
 
     @Override
     public List<ResponseCityDTO> getCitiesByPartOfName(String part) {
-        return getCities().stream()
+        return  getAllCities().stream()
                 .filter(elem -> elem.getName().contains(part))
-                .sorted((a, b) -> {
-                    if (a.getPopularity() > b.getPopularity()) {
-                        return 1;
-                    } else if(a.getPopularity() < b.getPopularity()) {
-                        return -1;
-                    }
-                    return 0;
-                })
                 .limit(5)
+                .collect(Collectors.toList());
+    }
+
+    private List<ResponseCityDTO> getAllCities() {
+        return cityRepository.findAll(Sort.by(Sort.Direction.DESC, "popularity")).stream()
+                .map(elem -> CityMapper.INSTANCE.toResponseDTO(elem, elem.getCountry()))
                 .collect(Collectors.toList());
     }
 }

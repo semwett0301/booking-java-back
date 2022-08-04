@@ -18,9 +18,9 @@ public class CityController {
         this.cityService = cityService;
     }
 
-    @GetMapping
-    public ResponseEntity<List<ResponseCityDTO>> getCities() {
-        return ResponseEntity.ok().body(cityService.getCities());
+    @GetMapping("/top")
+    public ResponseEntity<List<ResponseCityDTO>> getCities(@RequestParam int amount) {
+        return ResponseEntity.ok().body(cityService.getTopCities(amount));
     }
 
     @GetMapping("/part")
