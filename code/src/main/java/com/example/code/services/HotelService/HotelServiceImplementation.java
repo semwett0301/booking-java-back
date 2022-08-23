@@ -15,8 +15,8 @@ import java.util.stream.Collectors;
 
 @Service
 public class HotelServiceImplementation implements HotelService{
-    private CityRepository cityRepository;
-    private HotelRepository hotelRepository;
+    private final CityRepository cityRepository;
+    private final HotelRepository hotelRepository;
 
     @Autowired
     public HotelServiceImplementation(CityRepository cityRepository, HotelRepository hotelRepository) {

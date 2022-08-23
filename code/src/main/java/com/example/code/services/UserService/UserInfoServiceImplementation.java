@@ -1,9 +1,11 @@
 package com.example.code.services.UserService;
 
 import com.example.code.model.dto.RequestUserInfoDTO;
+import com.example.code.model.dto.ResponseUserDTO;
 import com.example.code.model.dto.ResponseUserInfoDTO;
 import com.example.code.model.entities.UserInfo;
 import com.example.code.model.mappers.UserInfoMapper;
+import com.example.code.model.mappers.UserMapper;
 import com.example.code.model.modelUtils.UserRole;
 import com.example.code.repositories.UserInfoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +13,7 @@ import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 import java.util.Optional;
+import java.util.UUID;
 
 @Service
 @Transactional
@@ -39,5 +42,10 @@ public class UserInfoServiceImplementation implements UserInfoService {
         }
 
         return Optional.empty();
+    }
+
+    @Override
+    public ResponseUserDTO getUserByID(UUID id) {
+        return UserMapper.INSTANCE.toResponseDTO(userInfoRepository.findUserInfoById(id));
     }
 }

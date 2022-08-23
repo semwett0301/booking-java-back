@@ -1,6 +1,7 @@
 package com.example.code.api;
 
 import com.example.code.model.dto.RequestUserInfoDTO;
+import com.example.code.model.dto.ResponseUserDTO;
 import com.example.code.model.dto.ResponseUserInfoDTO;
 import com.example.code.services.UserService.UserInfoService;
 import lombok.Data;
@@ -9,6 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
+import java.util.UUID;
 
 
 @CrossOrigin(origins = "http://localhost:3000")
@@ -38,5 +40,10 @@ public class UserController {
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok().body(responseUserInfoDTO.get());
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<ResponseUserDTO> getUserById(@PathVariable UUID id) {
+        return ResponseEntity.ok().body(userInfoService.getUserByID(id));
     }
 }

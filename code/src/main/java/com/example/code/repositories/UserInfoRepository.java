@@ -11,4 +11,5 @@ import java.util.UUID;
 @Repository
 public interface UserInfoRepository extends JpaRepository<UserInfo, UUID> {
     UserInfo findUserInfoByUsername(String username);
+    UserInfo findUserInfoById(UUID id);
 }
