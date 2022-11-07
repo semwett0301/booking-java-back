@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T12:23:30.797Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="zI1Iwk-3zv528bRW7liV" version="20.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T12:24:13.840Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="8tAA6YFHFnqaP2xQdTgO" version="20.5.2" type="github">
   <diagram id="qkRRXo-rJRyL8ndobpzs" name="Page-1">
     <mxGraphModel dx="944" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -64,10 +64,11 @@
         <mxCell id="_Mj9hCdD3FzGKY_9hBcF-1" value="1 игрок в 1 игре" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_Mj9hCdD3FzGKY_9hBcF-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Mj9hCdD3FzGKY_9hBcF-2" target="_Mj9hCdD3FzGKY_9hBcF-20">
+        <mxCell id="_Mj9hCdD3FzGKY_9hBcF-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="_Mj9hCdD3FzGKY_9hBcF-20">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="620" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="510" y="650" />
+              <mxPoint x="495" y="650" />
               <mxPoint x="350" y="650" />
             </Array>
           </mxGeometry>
